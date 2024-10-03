@@ -29,6 +29,8 @@
 	data-sveltekit-preload-data
 	on:click
 	{...$$restProps}
+	role="button"
+	tabindex="0"
 >
 	{#if $$slots['icon']}
 		<div class="icon">
