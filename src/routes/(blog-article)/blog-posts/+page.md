@@ -1,9 +1,9 @@
 ---
-title: How Blog Posts Work
 slug: blog-posts
-coverImage: /images/posts/blog-posts.jpg
+title: How Blog Posts Work
 date: 2023-04-22T21:55:15.361Z
 excerpt: How to manage existing blog posts and create new ones
+coverImage: /images/posts/blog-posts.jpg
 tags:
   - Documentation
 ---
@@ -38,11 +38,11 @@ To create a new post, create a new folder inside the `src/routes/(blog-article)`
 
 Inside the `+page.md` file, you must start with the front matter, which is a YAML-like syntax that is used to define metadata for the post. The front matter must be the first thing in the file, and must be separated from the rest of the content by three dashes (`---`). An example of a front matter is:
 
-<CodeBlock lang="markdown">
+<CodeBlock lang="markdown" filename="ambrosio.svelte">
 
 ```md
 ---
-slug: my-new-blog-post
+slug: blog-posts
 title: My New Blog Post
 date: 2023-04-22T20:45:25.350Z
 excerpt: A short description of the post

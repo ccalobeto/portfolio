@@ -9,6 +9,7 @@ import 'prism-svelte';
 import readingTime from 'reading-time/lib/reading-time';
 import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
+import type { ImageObject } from '$lib/utils/types';
 
 export const importPosts = (render = false) => {
 	const blogImports = import.meta.glob('$routes/*/*/*.md', { eager: true });
@@ -37,8 +38,8 @@ export const filterPosts = (posts: BlogPost[]) => {
 			new Date(a.date).getTime() > new Date(b.date).getTime()
 				? -1
 				: new Date(a.date).getTime() < new Date(b.date).getTime()
-				? 1
-				: 0
+					? 1
+					: 0
 		)
 		.map((post) => {
 			const readingTimeResult = post.html ? readingTime(striptags(post.html) || '') : undefined;
@@ -71,3 +72,14 @@ const getRelatedPosts = (posts: BlogPost[], post: BlogPost) => {
 };
 
 // #endregion
+
+export const images: ImageObject = import.meta.glob(
+	'$lib/images/**/*.{avif,gif,jpeg,jpg,png,tiff,webp,svg}',
+	{
+		eager: true,
+		query: {
+			enhanced: true
+		},
+		import: 'default'
+	}
+);

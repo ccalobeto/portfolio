@@ -36,3 +36,19 @@ export type BlogPost = {
 	relatedPosts: BlogPost[];
 	coverImage: string | undefined;
 };
+
+export interface ImageObject {
+	[key: string]: {
+		sources: {
+			avif: string;
+			webp: string;
+			jpeg?: string;
+			png?: string;
+		};
+		img: {
+			src: string;
+			w: number;
+			h: number;
+		};
+	};
+}

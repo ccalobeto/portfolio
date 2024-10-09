@@ -25,6 +25,7 @@
 				tags={post.tags}
 				readingTime={post.readingTime}
 				showImage={false}
+				coverImage={post.coverImage}
 			/>
 		{/each}
 	</div>
