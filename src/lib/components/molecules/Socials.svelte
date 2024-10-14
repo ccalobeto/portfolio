@@ -8,19 +8,34 @@
 </script>
 
 <div class="socials">
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Say Hi on Telegram">
+	<!-- <a href="#" target="_blank" rel="noopener noreferrer" title="Say Hi on Telegram">
 		<TelegramIcon />
 	</a>
 	<a href="#" target="_blank" rel="me noreferrer" title="Say Hi on Mastodon">
 		<MastodonIcon />
-	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="See my GitHub profile">
+	</a> -->
+	<a
+		href="https://github.com/ccalobeto"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See my GitHub profile"
+	>
 		<GitHubIcon />
 	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Connect on LinkedIn">
+	<a
+		href="https://www.linkedin.com/in/carlosleonl"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Connect on LinkedIn"
+	>
 		<LinkedInIcon />
 	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Send an email">
+	<a
+		href="mailto:leon.calobeto@gmail.com"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Send an email"
+	>
 		<EmailIcon />
 	</a>
 </div>
