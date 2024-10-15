@@ -9,9 +9,9 @@
 		<div class="svg-wrapper">
 			<Error />
 		</div>
-		<p>It seems like coffee was spilled all over this page, and now it can't be displayed.</p>
+		<p>Que pena! por el momento ahora no se puede mostrar información.</p>
 		<br />
-		<Button href="/">Start over</Button>
+		<Button href="/">Empezar de nuevo</Button>
 	</div>
 </div>
 
