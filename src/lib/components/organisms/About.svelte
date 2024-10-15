@@ -7,15 +7,15 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			Soy un Data Visualization Engineer y elaboro proyectos web con
+			<SparklingHighlight color="secondary">datos geoespaciales</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Creo en productos de software ligeros, intuitivos y visuales que potencien la comprensión e
+			interacción de los datos con los usuarios.
 		</p>
 		<div class="socials">
-			<span>Socials:</span>
+			<span>Redes sociales:</span>
 			<Socials />
 		</div>
 	</div>

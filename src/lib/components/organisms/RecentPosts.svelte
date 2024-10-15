@@ -9,12 +9,12 @@
 
 <ContentSection
 	id="recent-posts"
-	title="Blog posts"
-	description="This section shows the 4 most recent blog posts. Check them out for tips on how to get started!"
+	title="Posts recientes"
+	description="De vez en cuando escribo sobre algo que nos interese."
 	align="left"
 >
 	<div slot="button">
-		<Button href="/blog">View More</Button>
+		<Button href="/blog">Ver más</Button>
 	</div>
 	<div class="grid">
 		{#each posts as post}

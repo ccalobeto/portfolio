@@ -8,11 +8,13 @@
 
 <header class:has-background={showBackground}>
 	<nav class="container">
-		<a class="logo" href="/" aria-label="Site logo">
+		<a class="logo" href="./" aria-label="Site logo">
 			<Logo />
+			<!-- <DarkLogo width="600" height="600" /> -->
 		</a>
 		<div class="links">
-			<a href="/blog">Blog</a>
+			<a href="#features">Proyectos</a>
+			<a href="./blog">Blog</a>
 			<RssLink />
 			<ThemeToggle />
 		</div>
