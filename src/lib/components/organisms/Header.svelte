@@ -2,15 +2,15 @@
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
+	import DarkLogo from '$lib/icons/logo/tumi-3.svg?component';
 
 	export let showBackground = false;
 </script>
 
 <header class:has-background={showBackground}>
 	<nav class="container">
-		<a class="logo" href="./" aria-label="Site logo">
-			<Logo />
-			<!-- <DarkLogo width="600" height="600" /> -->
+		<a class="logo" href="/" aria-label="Site logo">
+			<DarkLogo width="600" height="600" />
 		</a>
 		<div class="links">
 			<a href="#features">Proyectos</a>
