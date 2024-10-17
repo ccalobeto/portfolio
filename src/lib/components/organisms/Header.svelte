@@ -3,18 +3,18 @@
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 	import DarkLogo from '$lib/icons/logo/tumi-3.svg?component';
+	import { base } from '$app/paths';
 
 	export let showBackground = false;
 </script>
 
 <header class:has-background={showBackground}>
 	<nav class="container">
-		<a class="logo" href="/" aria-label="Site logo">
+		<a class="logo" href="{base}/" aria-label="Site logo">
 			<DarkLogo width="600" height="600" />
 		</a>
 		<div class="links">
-			<a href="#features">Proyectos</a>
-			<a href="./blog">Blog</a>
+			<a href="{base}/blog">Blog</a>
 			<RssLink />
 			<ThemeToggle />
 		</div>

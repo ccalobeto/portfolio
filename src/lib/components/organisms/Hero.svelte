@@ -3,6 +3,7 @@
 	import ProjectIcon from '$lib/icons/projects.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <section id="hero">
@@ -16,7 +17,7 @@
 			<ProjectIcon slot="icon" />
 			Proyectos
 		</Button>
-		<Button color="primary" href="./blog">
+		<Button color="primary" href="{base}/blog">
 			<BlogIcon slot="icon" />
 			Blog
 		</Button>

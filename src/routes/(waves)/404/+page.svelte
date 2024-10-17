@@ -1,6 +1,7 @@
 <script>
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Error from '$lib/icons/error.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div class="error-page">
@@ -11,7 +12,7 @@
 		</div>
 		<p>Que pena! por el momento ahora no se puede mostrar información.</p>
 		<br />
-		<Button href="/">Empezar de nuevo</Button>
+		<Button href="{base}/">Empezar de nuevo</Button>
 	</div>
 </div>
 
