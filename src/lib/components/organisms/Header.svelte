@@ -13,8 +13,7 @@
 			<DarkLogo width="600" height="600" />
 		</a>
 		<div class="links">
-			<a href="#features">Proyectos</a>
-			<a href="./blog">Blog</a>
+			<a href="/blog">Blog</a>
 			<RssLink />
 			<ThemeToggle />
 		</div>

@@ -16,7 +16,7 @@
 			<ProjectIcon slot="icon" />
 			Proyectos
 		</Button>
-		<Button color="primary" href="./blog">
+		<Button color="primary" href="/blog">
 			<BlogIcon slot="icon" />
 			Blog
 		</Button>
