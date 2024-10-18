@@ -11,6 +11,7 @@
 	};
 
 	let { features, posts } = data;
+	console.log('posts:', posts);
 </script>
 
 <div class="container">
